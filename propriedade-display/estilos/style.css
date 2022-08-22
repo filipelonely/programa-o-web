@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.borda {
+    border: 1px solid red;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.vermelho {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+div {
+    display: inline-block;
+    width: 20%;
+    height: 150px;
+}
+
+a.botao {
+    width: 3000px;
+    display: inline-block;
+}

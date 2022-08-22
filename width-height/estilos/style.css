@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    background-color: white;
+}
+
+h1 {
+    color: #a81c13;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;
+    background-color: black;
+    padding: 50px;
+}
+
+p {
+    color: blueviolet;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.exemplo-back {
+    height:100px;
+    background-color: gray;
+    margin-bottom: 100px;
+}
+
+.botao {
+    margin-left: 33%;
+    background-color: green;
+    color: white;
+    padding: 30px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.botao:hover {
+    background-color: blue;
+}
+
+.teste {
+    max-width: 800px;
+    height: 250px;
+    background-color: gray;
+}
