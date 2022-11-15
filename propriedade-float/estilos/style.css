@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.container{
+    border: 3px solid red;
+    overflow: auto;
+}
+
+.container img {
+    float: left;
+    margin-right: 20px;
+}
+
+ul {
+    background-color: black;
+    padding: 20px;
+}
+
+li {
+    display: inline-block;
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+li > a:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.login {
+    float: right;
+}
+
+.login a:hover {
+    background-color: orangered;
+    color: white;
+}
